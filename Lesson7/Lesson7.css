@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+input {
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.rounded{
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 14px 14px;
+  width: 200px;
+}
+
+.boxshadow{
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.linked{
+  width: 300px;
+  padding: 4px 4px;
+}
+
+.Fbutton{
+  background-color: rgb(76, 76, 253);
+  color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  width: 300px;
+}
+
+.twitter{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 420px;
+}
+
+.twitter img{
+  border-radius: 50%;
+  width: 80px;
+}
+
+.twitter input{
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.twitter button {
+  background: #1d9bf0;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
