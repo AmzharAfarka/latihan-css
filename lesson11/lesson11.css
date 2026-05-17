@@ -1,0 +1,129 @@
+body{
+  font-family: Arial;
+}
+
+
+h1{
+  font-size: 22px;
+}
+
+
+/* 11a */
+.grid-11a{
+  display: grid;
+
+  grid-template-columns: 200px 75px;
+}
+
+
+/* 11b */
+.grid-11b{
+  display: grid;
+
+  grid-template-columns: 50px 1fr 75px;
+}
+
+
+/* 11c */
+.grid-11c{
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+
+/* warna */
+.light-blue{
+  background-color: lightblue;
+}
+
+.light-pink{
+  background-color: lightpink;
+}
+
+
+/* 11d */
+.friends-grid{
+  display: grid;
+
+  grid-template-columns: 200px 200px 200px;
+
+  column-gap: 20px;
+}
+
+
+.friend-card{
+  width: 200px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.profile-picture{
+  width: 200px;
+  height: 200px;
+
+  object-fit: cover;
+}
+
+
+.name{
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+
+
+.mutual-row{
+  display: grid;
+
+  grid-template-columns: 35px 1fr;
+
+  align-items: center;
+
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+
+.mutual-picture{
+  width: 28px;
+  height: 28px;
+
+  border-radius: 14px;
+
+  object-fit: cover;
+}
+
+
+.mutual-friends{
+  color: gray;
+
+  font-size: 14px;
+}
+
+
+.add-button{
+  background-color: rgb(24, 119, 242);
+  color: white;
+
+  border: none;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  border-radius: 4px;
+
+  margin-left: 8px;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+}
